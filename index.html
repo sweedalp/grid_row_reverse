@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Row Reverse Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr); /* 6 equal columns */
+      direction: rtl; /* reverse the order from right to left */
+      gap: 10px; /* space between boxes */
+    }
+
+    .item {
+      background-color: lightblue;
+      border: 1px solid black;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Grid Row Reverse Example</h2>
+
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+  </div>
+
+</body>
+</html>
